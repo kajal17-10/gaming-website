@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    /* background-color: #000000f5; */
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    height: 50px;
+    align-items: center;
+    background-color: #000000f5;
+    color: white;
+}
+
+.nav .logo{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: bolder;
+}
+
+.nav .logo .icon{
+    color: rgb(230, 77, 21);
+    font-size: 30px;
+}
+
+.nav .menu{
+    display: flex;
+    column-gap: 30px;
+    text-transform: uppercase;
+}
+
+.nav .menu a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.nav .menu .home{
+    color: rgb(230, 77, 21);
+}
+
+.nav  .btn button{
+    background: orangered;
+    border: none;
+    padding: 15px 35px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav  .btn button:hover{
+    box-shadow: orangered 0px 7px 29px 0px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000f5;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    row-gap: 20px;
+}
+
+.hero p{
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.hero img{
+    box-shadow: orangered 0px 0px 10px 0px;
+    width: 600px;
+}
+
+.company-logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000f5;
+    align-items: center;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 20px 80px;
+}
+
+.logo .logoimg{
+    height: 85px;
+    width: 150px;
+}
+
+.game-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000f5;
+    padding: 20px 80px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.game-sec .box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-sec .box1 img{
+    height: 365px;
+    width: 315px;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: white 0px 0px 5px 0px;
+}
+
+.game-sec .box1 button{
+    background: orangered;
+    border: none;
+    padding: 15px 35px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    transition: all 0.3s ease-in-out;
+    margin-top: -27px;
+}
+
+.game-sec .box1 button:hover{
+    box-shadow: orangered 0px 7px 29px 0px;
+}
+
+.swiper h1{
+    text-align: center;
+    /* margin-top: 35px; */
+    padding-bottom: 30px;
+    color: white;
+}
+
+.swiper{
+    background-color: #000000f5;
+    height: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+*{
+    outline:none;
+  }
+  
+  /* slider styles */
+  .sd_master_wrapper{
+      position: relative;	
+      max-width:900px;
+      margin:0 auto;
+      padding:0;
+      border-radius:10px;
+      z-index:9999;
+  }
+  .sdtestBg3{
+      height: 100%;
+      width: 80%;
+      background: #000000f5;
+      position: absolute;
+      bottom: -40px;
+      left: 10%;
+      border-radius: 20px;
+      box-shadow: 0px 18px 52.8537px rgb(215 228 249 / 50%);
+      z-index:1;
+  }
+  .sdtestBg2{
+      height: 100%;
+      width: 90%;
+      background: #000000f5;
+      position: absolute;
+      bottom: -22px;
+      left: 5%;
+      border-radius: 20px;
+      box-shadow: 0px 18px 52.8537px rgb(215 228 249 / 50%);
+      z-index:2;
+  }
+  
+  .sd_scroll {
+      height: auto;
+      max-height: 180px;
+      overflow: auto;
+  }
+      
+  .slideshow {
+      position: relative;
+      min-height: 300px;
+      height: auto;
+      background: #000000f5;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+      background-image: url(https://farsighttechnologies.com/wp-content/uploads/2021/03/quote1.png), url(https://farsighttechnologies.com/wp-content/uploads/2021/03/quote.png);
+      background-position: top 15px left 15px, bottom 40% right 15px;
+      background-repeat: no-repeat;
+      background-size: 180px, 180px;
+      z-index:3;
+  }
+  button.slick-prev.slick-arrow {
+      position: absolute;
+      z-index: 9999;
+      bottom: -80px;
+      right: 160px;
+      background: transparent;
+      color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      height: 15px;
+      width: 30px;
+      padding: 0;
+      background-image: url(https://farsighttechnologies.com/wp-content/uploads/2021/03/left-icon.png);
+      background-size: 100% 100%;
+  }
+  button.slick-next.slick-arrow {
+      position: absolute;
+      bottom: -82px;
+      right: 105px;
+      background: transparent;
+      color: transparent;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      outline: none;
+      height: 18px;
+      width: 40px;
+      background-image: url(https://farsighttechnologies.com/wp-content/uploads/2021/03/right-icon.png);
+      background-size: 100% 100%;
+  }
+  .pagingInfo {
+      position: absolute;
+      bottom: 0;
+      z-index: 999;
+  }
+  .sdCustomSliderHeadig {
+      color: white;
+      font-family: "Poppins", Sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.6em;
+      text-align: center;
+  }
+  .sdCustomSliderBtn{
+      display: inline-block;
+      text-decoration: none;
+      font-family: montserrat;
+      background: #E31C3A;
+      color: #fff;
+      padding: 12px 25px;
+      margin-top: 30px;
+      border-radius: 4px;
+      outline: none;
+      font-size: 14px;
+      font-weight: 500;
+  }
+  .sdAllContent{
+      width:75%;
+      margin:auto;
+  }
+  .thumbnail img {
+      height: 55px;
+      width: 55px;
+      border-radius: 50%;
+      margin: auto;
+      margin-top: 15px;
+  }
+  .content{
+      display:block !important;
+      padding: 5px;
+  }
+  .SdClientName {
+      text-align: center;
+      color: #272D4E;
+      font-family: "Poppins", Sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.4em;
+      margin-top: 15px;
+  }
+  .SdClientDesc {
+      text-align: center;
+      color: #7854F7;
+      font-family: "Poppins", Sans-serif;
+      font-size: 14px;
+      line-height: 1.4em;
+      margin-bottom: 10px;
+  }
+  
+  
+  /* style for moblile */
+  @media (max-width:576px){
+  .sd_scroll {
+      height: auto;
+      overflow: auto;
+      max-height:240px;
+  }
+  
+  .thumbnail, .btnNtxt{
+      width: 100% !important;
+      display: block !important;
+  }
+  
+  }
+  /* scroll bar */
+  /* total width */
+  .sd_scroll::-webkit-scrollbar {
+      background-color:transparent;
+      width:6px;
+  }
+  
+  /* background of the scrollbar except button or resizer */
+  .sd_scroll::-webkit-scrollbar-track {
+      background-color:transparent;
+  }
+  .sd_scroll::-webkit-scrollbar-track:hover {
+      background-color:transparent;
+  }
+  
+  /* scrollbar itself */
+  .sd_scroll::-webkit-scrollbar-thumb {
+      background-color:#babac0;
+      border-radius:16px;
+      
+  }
+  .sd_scroll::-webkit-scrollbar-thumb:hover {
+      background-color:#a0a0a5;
+  }
+
+  .footer {
+    font-size: 18px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+  
+.container {
+    width: 100%;
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+
+}
+
+  
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+  
+.footer-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+.footer-menu li:last-child {
+    margin-right: 0;
+}
+  
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.social-icons li:last-child {
+    margin-right: 0;
+}
+  
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+  
+.footer-bottom p {
+    margin: 0;
+}
+  
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+    .footer-menu{
+        text-align: left;
+    }
+    .footer-menu li {
+      display: block;
+      margin-bottom: 10px;
+    }
+}
+  
+.attribute{
+    position: absolute;
+    bottom: 10px;
+}
